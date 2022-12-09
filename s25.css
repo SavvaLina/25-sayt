@@ -1,0 +1,57 @@
+body{
+    background-color:beige;
+    color: darkslategray;
+    margin: 5px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    header,
+    footer {
+        text-align: right;
+        background-color: cornsilk;
+    }
+p {
+    text-align: justify;
+    text-indent: 8ch
+}
+
+p::first-letter {
+    font-size: 120%;
+    color: rgb(60, 23, 196);
+    text-decoration-line: underline;
+}
+section:hover {
+    background-color: seashell;
+}
+p::first-line {
+    color: rgb(15, 85, 8);
+}
+
+    h1 {
+        background: rgb(159, 217, 221);
+        color: white;
+        text-decoration-line: underline;
+        font-size: 56px;
+     
+}
+h2
+{
+    color:rgb(202, 141, 50);
+    text-decoration-line: underline;
+}
+h3
+{
+    color:rgb(202, 141, 50);
+    text-decoration-line: underline;
+}
+4 {
+    color:rgb(202, 141, 50);
+    text-decoration-line: underline;
+}
+.box_1{
+    height: 50%;
+    width: 50%;
+    margin: 5%;
+    padding: 11%;
+    background: rgb(159,217,221)
+}
